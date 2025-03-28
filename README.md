@@ -16,3 +16,4 @@
 
 4. Открываем HTML страничку в браузере, регистрируемся, логинимся, получаем токен <3
     
+![image](https://avzvet.ru/upload/iblock/14e/vitaminy-dlya-kotyat_0@2x.jpg)
