@@ -30,6 +30,7 @@ app.post('/login', (req, res)=>{
         password);
     if (user) {
         const token = jwt.sign({ userId: user.id }, process.env.JWT_SECRET, {expiresIn: '1h' });
+        console.log(`${username}'s token:'`, token)
         res.json({ token });
     } else {
         res.status(401).json({ message: 'Недействительные учетные данные' });
